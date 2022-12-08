@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Adrian Masiubi
+   Date: 11/27/22 
+	
+   Filename: br_styles.css
+
+*/
+
+/* Content and Structure
+Using the content of the br_listing2048.txt file, create the content and structure of the br_listing2048.html page. You are free to supplement the material in these text files with additional content of your own if appropriate. Use the # symbol for the value of the href attribute in your hypertext links because you will be linking to pages that don’t actually exist.
+
+Layout and Design Styles
+Go to the br_styles.css file in your editor and create the layout and design styles to be used in your page. The page design is up to you, but must include at least one example of the following graphic design features:
+
+A background image
+A border around a page element, including an example of a curved border
+A box shadow around a page element
+A text shadow around a section of element text
+A background featuring a linear gradient and a radial gradient
+Changing the appearance of an element using the transform property
+Changing the appearance of an element using the filter property
+Include comments in your style sheet to make it easy for other users to interpret.
+
+
+ */
+
+/* Set the background image for the page */
+
+body {
+  background-image: url(br_paper.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #000000;
+  max-width: 1440px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* Set the background color for the header */
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Set the background color for the footer */
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Set the background color for the main section */
+
+main {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* create horiontal nav */
+
+nav {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Set the background color for the nav ul */
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style other links */
+#otherLinks {
+  font-size: 1em;
+  font-weight: normal;
+  padding: 10px;
+}
+
+ul#otherLinks > li > a {
+  text-decoration: none;
+}
